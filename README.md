@@ -1,53 +1,34 @@
-# Header
-[Defines](#defines)
+## Indice
 
-[Custom/Names](#custom-names)
+**[1. Introduzione](#introduzione)**
 
-Questo documento riguarda le modifiche e creazione dei vertical.<br>
-Sono descritte con maggiore dettaglio solo le proprietà del json più interessate ad essere modificate in futuro.
+**[2. Vertical](#vertical)**
 
-Questo documento riguarda le modifiche e creazione dei vertical.<br>
-Sono descritte con maggiore dettaglio solo le proprietà del json più interessate ad essere modificate in futuro.
+* [2.1 Crea Vertical](#crea-vertical)
+* [2.2 Modifica Vertical](#modifica-vertical)
+* [2.3 Elimina Vertical](#elimina-vertical)
 
-Questo documento riguarda le modifiche e creazione dei vertical.<br>
-Sono descritte con maggiore dettaglio solo le proprietà del json più interessate ad essere modificate in futuro.
+**[3. Categoria](#categoria)**
 
-Questo documento riguarda le modifiche e creazione dei vertical.<br>
-Sono descritte con maggiore dettaglio solo le proprietà del json più interessate ad essere modificate in futuro.
+* [3.1 Crea Categoria](#crea-categoria)
+* [3.2 Modifica Categoria](#modifica-categoria)
+* [3.3 Elimina Categoria](#elimina-categoria)
 
-Questo documento riguarda le modifiche e creazione dei vertical.<br>
-Sono descritte con maggiore dettaglio solo le proprietà del json più interessate ad essere modificate in futuro.
+**[4. Esempio](#esempio)**
 
-Questo documento riguarda le modifiche e creazione dei vertical.<br>
-Sono descritte con maggiore dettaglio solo le proprietà del json più interessate ad essere modificate in futuro.
+* [4.1 Crea Esempio](#crea-esempio)
+* [4.2 Modifica Esempio](#modifica-esempio)
+* [4.3 Elimina Esempio](#elimina-esempio)
 
-Questo documento riguarda le modifiche e creazione dei vertical.<br>
-Sono descritte con maggiore dettaglio solo le proprietà del json più interessate ad essere modificate in futuro.
 
-Questo documento riguarda le modifiche e creazione dei vertical.<br>
-Sono descritte con maggiore dettaglio solo le proprietà del json più interessate ad essere modificate in futuro.
+
+# <a name="introduzione">1. Introduzione</a>
 
 Questo documento riguarda le modifiche e creazione dei vertical.<br>
-Sono descritte con maggiore dettaglio solo le proprietà del json più interessate ad essere modificate in futuro.
+Sono descritte con maggiore dettaglio solo le proprietà del json più interessate ad essere modificate in futuro, sono le seguenti: showcase, categories, examples
 
-Questo documento riguarda le modifiche e creazione dei vertical.<br>
-Sono descritte con maggiore dettaglio solo le proprietà del json più interessate ad essere modificate in futuro.
-
-
-### Defines
-there are defines
-
-### <a name="custom-names"></a>Custom/Names
-there are custom names
-----------------------------
-
-
-# Vertical
-
-Questo documento riguarda le modifiche e creazione dei vertical.<br>
-Sono descritte con maggiore dettaglio solo le proprietà del json più interessate ad essere modificate in futuro.
-
-## Creazione Vertical
+# <a name="vertical">2. Vertical</a>
+## <a name="crea-vertical">2.1 Crea Vertical</a>
 
 Di seguito la struttura json completa di un vertical
 
@@ -187,7 +168,7 @@ Struttura vertical
 > All'interno di **categories** fare attenzione alla proprietà **examples** che contiene un array di oggetti che sono gli esempi di una determinata categoria. 
 
 
-## Modifica Vertical
+## <a name="modifica-vertical">2.2 Modifica Vertical</a>
 ### Percorso
 
 > Il file json da modificare si trova al percorso:
@@ -196,7 +177,7 @@ Struttura vertical
 
 In questo file trova l'oggetto in questione e modifica la parte interessata.
 
-## Elimina Vertical
+## <a name="elimina-vertical">2.3 Elimina Vertical</a>
 ### Percorso
 
 > Il file json da modificare si trova al percorso:
@@ -269,7 +250,8 @@ ad esempio
 ]
 ```
 
-## Creazione Categoria di un Vertical
+# <a name="categoria">3. Categoria</a>
+## <a name="crea-categoria">3.1 Crea Categoria</a>
 ### Percorso
 
 > Il file json da modificare si trova al percorso:
@@ -378,7 +360,7 @@ ad esempio la nuova struttura subito dopo la duplicazione sarà così:
 >
 > Durante la creazione di nuove categorie metti in ordine crescente la proprietà **id** dei vari oggetti categoria e modifica o elimina i dati all'interno della proprietà **examples**
 
-## Modifica Categoria di un Vertical
+## <a name="modifica-categoria">3.2 Modifica Categoria</a>
 ### Percorso
 
 > Il file json da modificare si trova al percorso:
@@ -387,7 +369,7 @@ ad esempio la nuova struttura subito dopo la duplicazione sarà così:
 
 In questo file recati nella proprietà **categories** trova l'oggetto in questione e modifica la parte interessata. 
 
-## Elimina Categoria di un Vertical
+## <a name="elimina-categoria">3.3 Elimina Categoria</a>
 ### Percorso
 
 > Il file json da modificare si trova al percorso:
@@ -400,8 +382,8 @@ In questo file recati nella proprietà **categories** trova l'oggetto in questio
 >
 > Durante l'eliminazione metti in ordine crescente la proprietà **id** dei vari oggetti categoria
 
-
-## Creazione Esempio di un Categoria di un Vertical
+# <a name="esempio">4 Esempio</a>
+## <a name="crea-esempio">4.1 Crea Esempio</a>
 ### Percorso
 
 > Il file json da modificare si trova al percorso:
@@ -553,8 +535,7 @@ Dopo la creazione la nuova struttura sarà così ad esempio:
 >
 > Durante la creazione di nuovi esempi metti in ordine crescente la proprietà **id** dei vari oggetti esempi e modifica o elimina le proprietà al suo interno.
 
-
-## Modifica Esempio di una Categoria di un Vertical
+## <a name="modifica-esempio">4.2 Modifica Esempio</a>
 ### Percorso
 
 > Il file json da modificare si trova al percorso:
@@ -563,7 +544,7 @@ Dopo la creazione la nuova struttura sarà così ad esempio:
 
 In questo file recati nella proprietà **categories** e subito dopo su **examples** e modifica l'oggetto interessato
 
-## Elimina Esempio di una Categoria di un Vertical
+## <a name="elimina-esempio">4.3 Elimina Esempio</a>
 ### Percorso
 
 > Il file json da modificare si trova al percorso:
