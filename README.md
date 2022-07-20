@@ -121,7 +121,7 @@ Questo file contiene un array di oggetti dove ogni oggetto corrisponde ad un ver
 > 
 > Per generare il file di sprite lanciare il commando `npm run generate:svg-sprite`.
 >
-> **Tale commando va richiamato prima di fare la buil del progetto.**
+> **Tale commando va richiamato prima di fare la build del progetto.**
 
 > **Attenzione**
 > 
@@ -376,7 +376,7 @@ ad esempio la nuova struttura subito dopo la duplicazione sarà così:
 >
 > Per generare il file di sprite lanciare il commando `npm run generate:svg-sprite`.
 >
-> **Tale commando va richiamato prima di fare la buil del progetto.**
+> **Tale commando va richiamato prima di fare la build del progetto.**
 
 
 > **Attenzione**
