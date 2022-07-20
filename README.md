@@ -20,8 +20,6 @@
 * [4.2 Modifica Esempio](#modifica-esempio)
 * [4.3 Elimina Esempio](#elimina-esempio)
 
-
-
 # <a name="introduzione">1. Introduzione</a>
 
 Questo documento riguarda le modifiche e creazione dei vertical.<br>
@@ -113,9 +111,21 @@ Di seguito la struttura json completa di un vertical
 
 Questo file contiene un array di oggetti dove ogni oggetto corrisponde ad un vertical. Per proseguire con la creazione del vertical bisogna copiare la struttura esatta dell'oggetto esistente poi inserirlo in fondo all'array infine fare le modifiche delle varie proprietà esistenti.
 
+> **Icone**
+> 
+> Assicurarsi di mettere la nuova icona svg giusta nella versione nera e arancione al percorso: 
+> 
+> Porfolio-Sales/projects/portfolio/src/assets/icons
+> 
+> **Generazione icone**
+> 
+> Per generare il file di sprite lanciare il commando `npm run generate:svg-sprite`.
+>
+> **Tale commando va richiamato prima di fare la buil del progetto.**
+
 > **Attenzione**
 > 
-> Durante la duplicazione dell'oggetto assicurarti di mettere in ordine crescente gli **id** dei vari oggetti vertical, eliminare o modificare le proprietà che contengo al loro interno altri dati:
+> Durante la duplicazione dell'oggetto assicurarsi di mettere in ordine crescente gli **id** dei vari oggetti vertical, eliminare o modificare le proprietà che contengono al loro interno altri dati:
 > - showcase
 > - categories
 
@@ -346,7 +356,7 @@ ad esempio la nuova struttura subito dopo la duplicazione sarà così:
       "examples": []
     },
     {
-      "id": 2, /* ----- nuova categoria ------*/
+      "id": 3, /* ----- nuova categoria ------*/
       "title": "ESEMPI GDO",
       "slug": "esempi",
       "iconName": "cart",
@@ -355,6 +365,19 @@ ad esempio la nuova struttura subito dopo la duplicazione sarà così:
   ]
 }
 ```
+
+> **Icone**
+>
+> Assicurarsi di mettere la nuova icona svg giusta nella versione nera e arancione al percorso:
+>
+> Porfolio-Sales/projects/portfolio/src/assets/icons
+>
+> **Generazione icone**
+>
+> Per generare il file di sprite lanciare il commando `npm run generate:svg-sprite`.
+>
+> **Tale commando va richiamato prima di fare la buil del progetto.**
+
 
 > **Attenzione**
 >
@@ -450,7 +473,7 @@ In questo file recati nella proprietà **categories** e subito dopo su **example
   ]
 }
 ```
-**examples** è un array di oggetti dove per creare un altrao esempio basta duplicare l'oggetto e inserirlo in fondo all'array.
+**examples** è un array di oggetti dove per creare un altro esempio basta duplicare l'oggetto e inserirlo in fondo all'array.
 
 Dopo la creazione la nuova struttura sarà così ad esempio:
 
@@ -542,7 +565,7 @@ Dopo la creazione la nuova struttura sarà così ad esempio:
 >
 > Porfolio-Sales/projects/portfolio/src/verticals.json
 
-In questo file recati nella proprietà **categories** e subito dopo su **examples** e modifica l'oggetto interessato
+In questo file recati nella proprietà **categories**, subito dopo su **examples** e modifica l'oggetto interessato
 
 ## <a name="elimina-esempio">4.3 Elimina Esempio</a>
 ### Percorso
@@ -551,7 +574,7 @@ In questo file recati nella proprietà **categories** e subito dopo su **example
 >
 > Porfolio-Sales/projects/portfolio/src/verticals.json
 
-In questo file recati nella proprietà **categories** -> **examples** trova l'oggetto in questione e elimina dall'array in cui si trova.
+In questo file recati nella proprietà **categories**, subito dopo su **examples** e elimina l'oggetto in questione dall'array in cui si trova.
 
 > **Attenzione**
 >
