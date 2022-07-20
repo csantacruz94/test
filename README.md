@@ -112,6 +112,20 @@ Di seguito la struttura json completa di un vertical
 
 Questo file contiene un array di oggetti dove ogni oggetto corrisponde ad un vertical. Per proseguire con la creazione del vertical bisogna copiare la struttura esatta dell'oggetto esistente poi inserirlo in fondo all'array infine fare le modifiche delle varie proprietà esistenti.
 
+>**Route**
+>
+> Nella proprietà route assicurati che il percorso sia corretto, è formato in questo modo:
+>
+> - percorso route
+>
+>   `"route": "/vertical slug"`
+>
+> - esempio
+>
+>   `"route": "/gdo"`
+>
+
+> 
 > **Icone**
 > 
 > Assicurarsi di mettere la nuova icona svg giusta nella versione nera e arancione al percorso: 
