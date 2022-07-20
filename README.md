@@ -23,7 +23,8 @@
 # <a name="introduzione">1. Introduzione</a>
 
 Questo documento riguarda le modifiche e creazione dei vertical.<br>
-Sono descritte con maggiore dettaglio solo le proprietà del json più interessate ad essere modificate in futuro, sono le seguenti: showcase, categories, examples
+Sono descritte con maggiore dettaglio solo le proprietà del json più interessate ad essere modificate in futuro, sono le seguenti: showcase, categories, examples.<br>
+Durante la creazione assicurati di inserire tutti dati necessari sulle proprietà dell'oggetto in questione, **è obbligatorio**.
 
 # <a name="vertical">2. Vertical</a>
 ## <a name="crea-vertical">2.1 Crea Vertical</a>
@@ -474,6 +475,20 @@ In questo file recati nella proprietà **categories** e subito dopo su **example
 }
 ```
 **examples** è un array di oggetti dove per creare un altro esempio basta duplicare l'oggetto e inserirlo in fondo all'array.
+
+>**Route**
+> 
+> Nella proprietà route assicurati che il percorso sia corretto, è formato in questo modo:
+>
+> - percorso route
+>
+>   `"route": "/vertical slug/categories slug/examples slug"`
+> 
+> - esempio 
+> 
+>   `"route": "/gdo/esempi/dem_eventi_e_ricorrenze"`
+> 
+> 
 
 Dopo la creazione la nuova struttura sarà così ad esempio:
 
